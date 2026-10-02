@@ -4,6 +4,7 @@ from entities.user import User, UserResponse
 
 import database
 from bcrypt_hashing import hash_password, verify_password
+# bcrypt_hashing.hash.... - hvis nu man ikke importer liberariet
 
 
 app = FastAPI(title="Python API", version="1.0.0")

@@ -10,3 +10,6 @@ def verify_password(password: str, stored_hash: str) -> bool:
         password.encode("utf-8"),
         stored_hash.encode("utf-8"),
     )
+
+
+print(hash_password("Test"))
